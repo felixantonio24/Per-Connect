@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lilita+One&family=Mogra&display=swap');
+
+:root{
+    --blanco:white;
+}
+
+.containerNav{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ width: 100%;
+ background-color: var(--blanco);
+ gap: 15rem;
+
+top: 0;
+margin: 0;
+}
+.containerli{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style-type:none;
+    
+    
+}
+.spantitle{
+    font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style:oblique;
+}
