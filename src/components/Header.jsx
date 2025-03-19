@@ -10,7 +10,12 @@ const Header = ()=>{
             <div > 
       <img src={Image} className={Headerstyle.imageHeader} />
             </div>
+            <div className={Headerstyle.containerteext}>
             <h2>Welcomer to Perú</h2>
+            <p>A land of ancient wonders, unique flavors, and unforgettable adventures. Peru awaits you! </p>     
+            
+            </div>
+            
         </header>
         </>
     )
