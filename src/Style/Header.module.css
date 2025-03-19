@@ -28,13 +28,13 @@ h2 {
     display: flex;
     z-index: 2;
     position: relative;
-    transform: translateY(220%);
+    transform: translateY(450%);
     height: 5vh;
     text-shadow: 2px 1px 2px rgb(23, 2, 2);
     font-weight: 800;
     font-family: "Archivo Black", sans-serif;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     filter: drop-shadow( 1px 1px 2px black);
 }
@@ -44,10 +44,33 @@ p {
     z-index: 2;
     text-align: center;
     color: white;
-    font-size: 1.8em;
-    font-weight: 500;
-    width: 55rem; /* O usa max-content si no quieres que se estire */
+    font-size: 2em;
+    font-weight: 580;
+    width: 60rem; /* O usa max-content si no quieres que se estire */
     margin: 0 auto; /* Centra el párrafo */
-    transform: translateY(80%);
+    transform: translateY(230%);
     filter: drop-shadow(2px 2px 2px black);
 }
+.containerbutton{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Asegura que el botón quede debajo del texto */
+    height: 90vh; /* Ajusta según sea necesario */
+}
+ button{
+    position: relative;
+    z-index: 2;
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #0b670d74;
+    
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgb(7, 1, 1);
+    
+ }

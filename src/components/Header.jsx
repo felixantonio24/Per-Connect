@@ -15,7 +15,9 @@ const Header = ()=>{
             <p>A land of ancient wonders, unique flavors, and unforgettable adventures. Peru awaits you! </p>     
             
             </div>
-            
+            <div className={Headerstyle.containerbutton}> 
+            <button> See more </button>
+            </div>
         </header>
         </>
     )
