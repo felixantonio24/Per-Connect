@@ -1,0 +1,16 @@
+
+.containerMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+   
+}
+main{
+   margin: auto;
+   top: 0;
+   display: flex;
+   padding: 1.2rem 4em;
+
+  
+}

@@ -22,7 +22,7 @@ header{
     justify-content: center;
 }
 
-h2 {
+.tittleheader {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -39,7 +39,7 @@ h2 {
     filter: drop-shadow( 1px 1px 2px black);
 }
 
-p {
+.headerparrafo {
     position: relative;
     z-index: 2;
     text-align: center;
