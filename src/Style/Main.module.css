@@ -1,16 +1,51 @@
-
-.containerMain{
+.containerMain {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 30rem;
-   
+    align-items: center; /* Permite que los elementos bajen en pantallas pequeñas */
+    gap: 15rem;
+    max-width: 1200px; /* Evita que los elementos se expandan demasiado */
+    margin: auto; /* Centra el contenedor */
 }
-main{
-   margin: auto;
-   top: 0;
-   display: flex;
-   padding: 1.2rem 4em;
 
-  
+main {
+    margin: auto;
+    top: 0;
+    padding: 1.2rem 2em;
+    justify-content: center;
+    background-color: rgb(233, 236, 238);
+}
+
+.bloqueuno {
+    max-width: 40%; /* Ajusta el ancho de manera proporcional */
+    min-width: 300px; /* Evita que se haga demasiado pequeño */
+}
+
+.bloquedos {
+    max-width: 50%; 
+    min-width: 400px; 
+    text-align: justify;
+}
+
+.containerdos{
+    display: flex;
+ margin: auto; /* Centra el contenedor */
+ justify-content: center;
+ align-items: center;
+
+ gap: 6rem;
+ max-width: 1500px;
+}
+.containerbloqueuno{
+    max-width: 30rem; /* Ajusta el ancho de manera proporcional */
+    min-width: 30rem; /* Evita que se haga demasiado pequeño */
+    margin-left: 9%;
+}
+.containerbloquedos{
+    width:50%;
+    max-width: 50%; 
+    min-width: 00px; 
+    text-align: justify;
+}
+p{
+    width: 38rem;
 }
