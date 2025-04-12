@@ -13,7 +13,27 @@ main {
     padding: 1.2rem 2em;
     justify-content: center;
     background-color: rgb(233, 236, 238);
+
 }
+.transicion{
+    transform: translateY(50px);
+    animation: Desplazamiento 1s  forwards ease-in-out;
+    opacity: 0;
+
+}
+@keyframes Desplazamiento {
+
+    from{
+        opacity: 0;
+        transform: translateY(50px)
+    }
+    to{ opacity: 1;
+        transform: translateX(0);
+
+    }
+}
+
+
 
 .bloqueuno {
     max-width: 40%; /* Ajusta el ancho de manera proporcional */
@@ -39,6 +59,7 @@ main {
     max-width: 30rem; /* Ajusta el ancho de manera proporcional */
     min-width: 30rem; /* Evita que se haga demasiado pequeño */
     margin-left: 9%;
+   
 }
 .containerbloquedos{
     width:50%;

@@ -1,9 +1,14 @@
+
 import Maintyle from '../Style/Main.module.css';
-const Main = ()=>{
+const Main = ({ coursesRef })=>{
+
+
+
     return(
         <>
   
   <main>
+  <div className={Maintyle.transicion} ref={coursesRef} id="courses"> 
     <section> 
         <div className={Maintyle.containerMain}>  
             <div className={Maintyle.bloqueuno}>
@@ -25,6 +30,7 @@ const Main = ()=>{
             </div>
         </div>
     </section>
+  </div>
 </main>
 
         </>

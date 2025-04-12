@@ -2,8 +2,10 @@ import Image from '../../src//assets/img/peru.jpg';
 import Headerstyle from '../Style/Header.module.css';
 
 
-const Header = ()=>{
+const Header = ({ onScrollToCourses })=>{
 
+
+    
     return(
         <>
         <header> 
@@ -15,7 +17,7 @@ const Header = ()=>{
             <p className={Headerstyle.headerparrafo}>A land of ancient wonders, unique flavors, and unforgettable adventures. Perú awaits you! </p>
             </div>
             <div className={Headerstyle.containerbutton}> 
-            <button> See more </button>
+            <button onClick={onScrollToCourses}> See more </button>
             </div>
         </header>
         </>
