@@ -30,6 +30,9 @@ const Main = ({ coursesRef })=>{
             </div>
         </div>
     </section>
+
+ 
+
   </div>
 </main>
 
