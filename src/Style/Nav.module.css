@@ -2,6 +2,10 @@
 
 :root{
     --blanco:white;
+    --rojo:red;
+    --azul:blue;
+    --sombra:rgba(0, 0, 0, 0.288); 
+    --NegroOpaco:rgb(96, 73, 73);
 }
 
 .containerNav{
@@ -9,7 +13,7 @@
  justify-content: space-evenly;
  align-items: center;
  width: 100%;
- background-color: var(--blanco);
+
  gap: 15rem;
 
 top: 0;
@@ -20,6 +24,10 @@ margin: 0;
     gap: 50px;
     text-decoration: none;
     list-style-type:none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style:oblique;
+    color: var(--NegroOpaco);
     
     
 }
@@ -27,4 +35,6 @@ margin: 0;
     font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style:oblique;
+  color: var(--rojo);
+  text-shadow:2px 2px 2px var(--sombra);
 }

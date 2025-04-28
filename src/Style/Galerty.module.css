@@ -39,11 +39,13 @@ main{
 }
 .ImgCoast:hover{
     transform: scale(1.1);
+    filter: drop-shadow(2px 0px 5px rgb(32, 29, 29));
 }
 .JungleContainer h2{
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style:oblique;
+    text-align: center;
 }
 
 
@@ -58,6 +60,7 @@ main{
 
 .ImgJungle:hover{
     transform: scale(1.1);
+    filter: drop-shadow(2px 0px 5px rgb(32, 29, 29));
 }
 
 
@@ -77,4 +80,5 @@ main{
 }
 .ImgSierra:hover{
     transform: scale(1.1);
+    filter: drop-shadow(2px 0px 5px rgb(32, 29, 29));
 }

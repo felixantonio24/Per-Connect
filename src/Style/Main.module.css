@@ -6,7 +6,9 @@
     max-width: 1200px; /* Evita que los elementos se expandan demasiado */
     margin: auto; /* Centra el contenedor */
 }
-
+:root{
+    --NegroOpaco:rgb(96, 73, 73);
+}
 main {
     margin: auto;
     top: 0;
@@ -36,7 +38,7 @@ main {
 
 
 .bloqueuno {
-    font-family:  sans-serif; font-family: "Archivo Black", sans-serif;
+    font-family: sans-serif;
     font-weight: 100;
     font-style:oblique;
     max-width: 40%; /* Ajusta el ancho de manera proporcional */
@@ -56,7 +58,7 @@ main {
     max-width: 30rem; /* Ajusta el ancho de manera proporcional */
     min-width: 30rem; /* Evita que se haga demasiado pequeño */
     margin-left: 9%;
-    font-family:  sans-serif; font-family: "Archivo Black", sans-serif;
+   font-family:  sans-serif;
     font-weight: 100;
     font-style:oblique;
     
@@ -75,6 +77,8 @@ main {
   
 font-family: sans-serif;
     font-weight: 500;
+    color: var(--NegroOpaco);
+    text-align:justify ;
 
 }
 

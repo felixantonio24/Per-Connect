@@ -15,11 +15,11 @@ const Galery = () =>{
                 
             </div>
             <div className={StyleGalery.JungleContainer}>
-                 <h2>Jungl Region</h2>
+                 <h2>Jungle Region</h2>
                  <img src={Img2} className={StyleGalery.ImgJungle} alt="region-jungle-Photo" />
             </div>
             <div className={StyleGalery.SierraContainer}> 
-                <h2> An2ean Region</h2>
+                <h2> Andean Region</h2>
                 <img src={Img3} className={StyleGalery.ImgSierra} alt="Andean-Region-Photo" />
             </div>
         </div>
