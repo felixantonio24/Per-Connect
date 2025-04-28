@@ -9,8 +9,14 @@
     margin: auto; /* Centra el contenedor */
 
 }
+
 :root{
     ---negro: Black;
+    --celesteopaco:rgb(233, 236, 238);
+  
+}
+main{
+    background-color: var(--celesteopaco);
 }
 .CoastContainer{
     align-items: center;
@@ -24,10 +30,15 @@
     text-align: center;
 }
 .ImgCoast{
+    cursor: pointer;
     height: 250px;
     width: 450px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.288));
+    transition: transform 0.3s ease-in-out;
+}
+.ImgCoast:hover{
+    transform: scale(1.1);
 }
 .JungleContainer h2{
     font-family: "Archivo Black", sans-serif;
@@ -41,8 +52,13 @@
     width: 450px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px  rgba(0, 0, 0, 0.358));
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
 }
 
+.ImgJungle:hover{
+    transform: scale(1.1);
+}
 
 
 .SierraContainer h2{
@@ -56,4 +72,9 @@
     width: 450px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0 0.358));
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.ImgSierra:hover{
+    transform: scale(1.1);
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center; /* Permite que los elementos bajen en pantallas pequeñas */
-    gap: 15rem;
+    gap: 19rem;
     max-width: 1200px; /* Evita que los elementos se expandan demasiado */
     margin: auto; /* Centra el contenedor */
 }
@@ -36,14 +36,11 @@ main {
 
 
 .bloqueuno {
+    font-family:  sans-serif; font-family: "Archivo Black", sans-serif;
+    font-weight: 100;
+    font-style:oblique;
     max-width: 40%; /* Ajusta el ancho de manera proporcional */
     min-width: 300px; /* Evita que se haga demasiado pequeño */
-}
-
-.bloquedos {
-    max-width: 50%; 
-    min-width: 400px; 
-    text-align: justify;
 }
 
 .containerdos{
@@ -52,7 +49,7 @@ main {
  justify-content: center;
  align-items: center;
 
- gap: 6rem;
+ gap: 8rem;
  max-width: 1500px;
 }
 .containerbloqueuno{
@@ -65,12 +62,22 @@ main {
     
 
 }
-.containerbloquedos{
+.containerbloquedos  {
     width:50%;
     max-width: 50%; 
-    min-width: 00px; 
+    min-width: 100px; 
     text-align: justify;
+    
+    
 }
-p{
-    width: 38rem;
+
+.parr {
+  
+font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.bloquedos  .containerbloquedos{
+    width: 80px ;
 }

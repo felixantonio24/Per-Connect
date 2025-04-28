@@ -7,6 +7,7 @@ const Galery = () =>{
 
     return(
         <>
+        <main> 
         <div className={StyleGalery.Container}>
             <div className={StyleGalery.CoastContainer}>
                 <h2>Coast Region</h2>
@@ -22,7 +23,7 @@ const Galery = () =>{
                 <img src={Img3} className={StyleGalery.ImgSierra} alt="Andean-Region-Photo" />
             </div>
         </div>
-        
+        </main>
         </>
     )
 }

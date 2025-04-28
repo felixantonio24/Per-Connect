@@ -66,11 +66,17 @@ header{
     padding: 10px 20px;
     font-size: 1.2em;
     border: none;
-    background-color: #0b670d74;
+    background-color: #22b22474;
     
     color: white;
     cursor: pointer;
     border-radius: 5px;
     text-shadow: 1px 1px 1px rgb(7, 1, 1);
+    transition: transform 0.3s ease-in-out;
     
+ }
+ button:hover{
+    transform: scale(1.1);
+    color:rgb(0, 0, 0);
+    background-color: rgb(246, 243, 243);
  }

@@ -16,7 +16,7 @@ function App() {
       }}/>
    <Main coursesRef={coursesRef} />
 
-  <Galery />
+  <Galery/>
     </>
   )
 }
