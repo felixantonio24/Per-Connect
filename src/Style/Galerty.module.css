@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center; /* Permite que los elementos bajen en pantallas pequeñas */
-    gap: 2rem;
+    gap: 2.5rem;
     max-width: 1200px; /* Evita que los elementos se expandan demasiado */
     margin: auto; /* Centra el contenedor */
 
@@ -31,8 +31,8 @@ main{
 }
 .ImgCoast{
     cursor: pointer;
-    height: 250px;
-    width: 450px;
+    height: 220px;
+    width: 380px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.288));
     transition: transform 0.3s ease-in-out;
@@ -50,8 +50,8 @@ main{
 
 
 .ImgJungle{
-    height: 250px;
-    width: 450px;
+    height: 220px;
+    width: 380px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px  rgba(0, 0, 0, 0.358));
     transition: transform 0.3s ease-in-out;
@@ -71,8 +71,8 @@ main{
     text-align: center;
 }
 .ImgSierra{
-    height: 250px;
-    width: 450px;
+    height: 220px;
+    width: 380px;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0 0.358));
     transition: transform 0.3s ease-in-out;

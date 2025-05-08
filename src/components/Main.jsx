@@ -2,8 +2,6 @@
 import Maintyle from '../Style/Main.module.css';
 const Main = ({ coursesRef })=>{
 
-
-
     return(
         <>
   
