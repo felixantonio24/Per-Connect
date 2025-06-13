@@ -1,4 +1,4 @@
-import Image from '../../src//assets/img/peru.jpg';
+import Image from '../../src/assets/img/peru.jpg';
 import Headerstyle from '../Style/Header.module.css';
 
 

@@ -1,5 +1,5 @@
 import StyleGalery from "../Style/Galerty.module.css";
-import Images from "../../src//assets/img/costa.webp";
+import Images from "../../src/assets/img/costa.webp";
 import Img2 from "../assets/img/selva-img.avif";
 import Img3 from "../assets/img/sierra.jpg"
 
@@ -25,7 +25,7 @@ const Galery = () =>{
         </div>
       
         </main>  
-             <footer>
+         <footer>
              <h6>Copyright © 2025 PerúConnect</h6>
         </footer>
         </>
