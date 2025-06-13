@@ -1,7 +1,7 @@
 import Nav from './components/Nav';
 import Header from './components/Header'
 import './App.css'
-import Main from './components/main';
+import Main from './components/Main';
 import { useRef } from 'react';
 import Galery from './components/Galery';
 

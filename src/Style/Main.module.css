@@ -43,10 +43,10 @@ main {
 .bloqueuno, .containerbloqueuno {
     font-family: sans-serif;
     font-weight: 100;
-    font-style: oblique;
     width: 40%;
     min-width: 300px;
     padding: 0 2%;
+    text-shadow: 1px 1px 1px rgb(201, 150, 150);
 }
 
 .bloquedos, .containerbloquedos {

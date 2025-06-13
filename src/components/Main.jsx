@@ -32,6 +32,7 @@ const Main = ({ coursesRef })=>{
  
 
   </div>
+       
 </main>
 
         </>

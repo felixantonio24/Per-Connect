@@ -23,7 +23,11 @@ const Galery = () =>{
                 <img src={Img3} className={StyleGalery.ImgSierra} alt="Andean-Region-Photo" />
             </div>
         </div>
-        </main>
+      
+        </main>  
+             <footer>
+             <h6>Copyright © 2025 PerúConnect</h6>
+        </footer>
         </>
     )
 }
